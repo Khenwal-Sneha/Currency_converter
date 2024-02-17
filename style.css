@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    transition: background-color 1s ease;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+/* heading */
+h2 {
+    font-size: 1.8rem;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* form */
+form {
+    background-color: rgb(228, 226, 226);
+    border: 0.5px solid black;
+    border-radius: 2%;
+    height: 450px;
+    transition: background-color 1s ease;
+}
+
+form:hover {
+    background-color:rgb(221, 207, 207) ;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 50%;
+    height: 25px;
+    border: 1.2px solid black;
+}
+
+.from-to {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.from , .to {
+    height: 8rem;
+    font-size: 1.2rem;
+}
+
+.from-to p {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.info , .result , .mode {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 6%;
+    width: 50%;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.darkmode{
+    background-color: rgb(87, 82, 82);
+    color: rgb(228, 211, 211);
+}
+
+.darkmode p {
+    color: white;
+}
+
+.darkmode:hover {
+    background-color: rgb(56, 55, 55);
+}
